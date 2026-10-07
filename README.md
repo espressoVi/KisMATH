@@ -34,7 +34,7 @@ introduce _Causal CoT Graphs_ (_**CCGraphs**_), which are directed acyclic
 graphs automatically extracted from reasoning traces that model finegrained
 causal dependencies in language-model outputs. A collection of **1671**
 mathematical reasoning problems from MATH500, GSM8K, and AIME, together with
-their associated _**CCGraphs**_, has been compiled into our dataset---KisMATH.
+their associated _**CCGraphs**_, has been compiled into our dataset——**KisMATH**.
 Our detailed empirical analysis with 15 open-weight LLMs shows that (i)
 reasoning nodes in the _**CCGraphs**_ are causal contributors to the final
 answer, which we argue is constitutive of reasoning; and (ii) LLMs emphasize the
