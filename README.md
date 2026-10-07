@@ -1,7 +1,7 @@
 ![KisMATH](assets/logo.png)
 
 > [!WARNING]
-> In preparation, _release date_: 9th October, 2026.
+> In preparation, _release date_: **9th October, 2026**.
 
 This repository contains code and data required to reproduce the main results
 for the paper titled—"_KisMATH: Do LLMs Have Knowledge of Implicit Structures in
