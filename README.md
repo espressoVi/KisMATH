@@ -1,5 +1,8 @@
 ![KisMATH](assets/logo.png)
 
+> [!WARNING]
+> In preparation, _release date_: 9th October, 2026.
+
 This repository contains code and data required to reproduce the main results
 for the paper titled—"_KisMATH: Do LLMs Have Knowledge of Implicit Structures in
 Mathematical Reasoning?_", accepted to the Transactions of the Association for
@@ -30,17 +33,18 @@ If you find any material from this repository helpful, please cite our paper.
 Chain-of-thought (CoT) traces have been shown to improve performance of large
 language models on a plethora of reasoning tasks, yet there is no consensus on
 the mechanism by which this boost is achieved. To shed more light on this, we
-introduce _Causal CoT Graphs_ (_**CCGraphs**_), which are directed acyclic
-graphs automatically extracted from reasoning traces that model finegrained
-causal dependencies in language-model outputs. A collection of **1671**
-mathematical reasoning problems from MATH500, GSM8K, and AIME, together with
-their associated _**CCGraphs**_, has been compiled into our dataset—**KisMATH**.
-Our detailed empirical analysis with 15 open-weight LLMs shows that (i)
-reasoning nodes in the _**CCGraphs**_ are causal contributors to the final
-answer, which we argue is constitutive of reasoning; and (ii) LLMs emphasize the
-reasoning paths captured by the _**CCGraphs**_, indicating that the models
-internally realize structures similar to our graphs. **KisMATH** enables
-controlled, graph-aligned interventions and opens avenues for further
+introduce _Causal CoT Graphs_ (**CCGraphs**), which are directed acyclic graphs
+automatically extracted from reasoning traces that model finegrained causal
+dependencies in language-model outputs.
+
+A collection of **1671** mathematical reasoning problems from MATH500, GSM8K,
+and AIME, together with their associated **CCGraphs**, has been compiled into
+our dataset—**KisMATH**. Our detailed empirical analysis with 15 open-weight
+LLMs shows that (i) reasoning nodes in the **CCGraphs**_ are causal contributors
+to the final answer, which we argue is constitutive of reasoning; and (ii) LLMs
+emphasize the reasoning paths captured by the _**CCGraphs**_, indicating that
+the models internally realize structures similar to our graphs. **KisMATH**
+enables controlled, graph-aligned interventions and opens avenues for further
 investigation into the role of CoT in LLM reasoning."
 
 ## Usage
@@ -58,4 +62,3 @@ investigation into the role of CoT in LLM reasoning."
 * [Saptarshi Saha](https://openreview.net/profile?id=%7ESaptarshi_Saha1)
 * [Utpal Garain](https://isical.ac.in/~utpal)
 * [Nicholas Asher](https://www.irit.fr/~Nicholas.Asher/)
-
