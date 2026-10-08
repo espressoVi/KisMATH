@@ -6,7 +6,7 @@ Mathematical Reasoning?_", accepted to the Transactions of the Association for
 Computational Linguistics (**TACL**), 14:1308–1328.
 
 [:notebook: Paper](https://aclanthology.org/2026.tacl-1.59/) |
-[:hugging_face: Data](https://huggingface.co/datasets/espressovi/KisMATH) |
+[:floppy_disk: Data](https://huggingface.co/datasets/espressovi/KisMATH) |
 [:email: Contact](mailto:soumadeep.saha97@gmail.com)
 
 ## Citation
