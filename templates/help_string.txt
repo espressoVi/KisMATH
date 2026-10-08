@@ -1,0 +1,16 @@
+python generate_probability.py --model [model name] --dataset [dataset] --partition [partition] -n [number of samples]
+
+    -- model : Model to use for calculating probabilities. Can be one of the
+                following.
+                qwen3_1B, qwen3_8B, qwen3_32B, qwen25_7B, qwen25_math_7B,
+                deepseek_r1_1B, deepseek_r1_8B, deepseek_r1_0528_8B,
+                deepseek_r1_32B, deepseek_r1_70B, llama31_8B, llama33_70B,
+                gemma3_1B, gemma3_12B, gemma3_27B
+
+    -- dataset : Dataset to use. Can be one of the following:
+                aime, math500, gsm8k
+
+    -- partition : [OPTIONAL] (default 0). For AIME and large models only to run inference in parts.
+
+    - n : [OPTIONAL] (default all) number of samples to consider.
+

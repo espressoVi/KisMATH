@@ -1,0 +1,502 @@
+{
+    "0": {
+        "question": "Let $x$ , $y$ and $z$ all exceed $1$ and let $w$ be a positive number such that $\\log_xw=24$ , $\\log_y w = 40$ and $\\log_{xyz}w=12$ . Find $\\log_zw$ .",
+        "ground_truth": "60",
+        "dataset_id": "1983-1"
+    },
+    "1": {
+        "question": "Let $f(x)=|x-p|+|x-15|+|x-p-15|$ , where $0 < p < 15$ . Determine the minimum value taken by $f(x)$ for $x$ in the interval $p \\leq x\\leq15$ .",
+        "ground_truth": "15",
+        "dataset_id": "1983-2"
+    },
+    "3": {
+        "question": "Let $a_n=6^{n}+8^{n}$ . Determine the remainder on dividing $a_{83}$ by $49$ .",
+        "ground_truth": "35",
+        "dataset_id": "1983-6"
+    },
+    "4": {
+        "question": "Twenty five of King Arthur's knights are seated at their customary round table. Three of them are chosen - all choices being equally likely - and are sent off to slay a troublesome dragon. Let $P$ be the probability that at least two of the three had been sitting next to each other. If $P$ is written as a fraction in lowest terms, what is the sum of the numerator and denominator? ",
+        "ground_truth": "57",
+        "dataset_id": "1983-7"
+    },
+    "5": {
+        "question": "What is the largest $2$ -digit prime factor of the integer $n = {200\\choose 100}$ ?",
+        "ground_truth": "61",
+        "dataset_id": "1983-8"
+    },
+    "6": {
+        "question": "Find the minimum value of $\\frac{9x^2\\sin^2 x + 4}{x\\sin x}$ for $0 < x < \\pi$ .",
+        "ground_truth": "12",
+        "dataset_id": "1983-9"
+    },
+    "7": {
+        "question": "The numbers $1447$ , $1005$ and $1231$ have something in common: each is a $4$ -digit number beginning with $1$ that has exactly two identical digits. How many such numbers are there?",
+        "ground_truth": "432",
+        "dataset_id": "1983-10"
+    },
+    "8": {
+        "question": "Diameter $AB$ of a circle has length a $2$ -digit integer (base ten). Reversing the digits gives the length of the perpendicular chord $CD$ . The distance from their intersection point $H$ to the center $O$ is a positive rational number. Determine the length of $AB$",
+        "ground_truth": "65",
+        "dataset_id": "1983-12"
+    },
+    "10": {
+        "question": "Find the value of $a_2+a_4+a_6+a_8+\\ldots+a_{98}$ if $a_1$ , $a_2$ , $a_3\\ldots$ is an arithmetic progression with common difference 1, and $a_1+a_2+a_3+\\ldots+a_{98}=137$ .",
+        "ground_truth": "93",
+        "dataset_id": "1984-1"
+    },
+    "12": {
+        "question": "Let $S$ be a list of positive integers--not necessarily distinct--in which the number $68$ appears. The average (arithmetic mean) of the numbers in $S$ is $56$ . However, if $68$ is removed, the average of the remaining numbers drops to $55$ . What is the largest number that can appear in $S$ ?",
+        "ground_truth": "649",
+        "dataset_id": "1984-4"
+    },
+    "14": {
+        "question": "Three circles, each of radius $3$ , are drawn with centers at $(14, 92)$ , $(17, 76)$ , and $(19, 84)$ . A line passing through $(17,76)$ is such that the total area of the parts of the three circles to one side of the line is equal to the total area of the parts of the three circles to the other side of it. What is the absolute value of the slope of this line?",
+        "ground_truth": "24",
+        "dataset_id": "1984-6"
+    },
+    "16": {
+        "question": "The equation $z^6+z^3+1=0$ has complex roots with argument $\\theta$ between $90^\\circ$ and $180^\\circ$ in the complex plane. Determine the degree measure of $\\theta$ .",
+        "ground_truth": "160",
+        "dataset_id": "1984-8"
+    },
+    "18": {
+        "question": "A gardener plants three maple trees, four oaks, and five birch trees in a row. He plants them in random order, each arrangement being equally likely. Let $\\frac m n$ in lowest terms be the probability that no two birch trees are next to one another. Find $m+n$ . ",
+        "ground_truth": "106",
+        "dataset_id": "1984-11"
+    },
+    "19": {
+        "question": "A function $f$ is defined for all real numbers and satisfies $f(2+x)=f(2-x)$ and $f(7+x)=f(7-x)$ for all $x$ . If $x=0$ is a root for $f(x)=0$ , what is the least number of roots $f(x)=0$ must have in the interval $-1000\\leq x \\leq 1000$ ?",
+        "ground_truth": "401",
+        "dataset_id": "1984-12"
+    },
+    "20": {
+        "question": "Find the value of $10\\cot(\\cot^{-1}3+\\cot^{-1}7+\\cot^{-1}13+\\cot^{-1}21).$",
+        "ground_truth": "15",
+        "dataset_id": "1984-13"
+    },
+    "21": {
+        "question": "What is the largest even integer that cannot be written as the sum of two odd composite numbers? ",
+        "ground_truth": "38",
+        "dataset_id": "1984-14"
+    },
+    "22": {
+        "question": "Let $x_1=97$ , and for $n>1$ let $x_n=\\frac{n}{x_{n-1}}$ . Calculate the product $x_1x_2 \\ldots x_8$ .",
+        "ground_truth": "384",
+        "dataset_id": "1985-1"
+    },
+    "23": {
+        "question": "Find $c$ if $a$ , $b$ , and $c$ are positive integers which satisfy $c=(a + bi)^3 - 107i$ , where $i^2 = -1$ .",
+        "ground_truth": "198",
+        "dataset_id": "1985-3"
+    },
+    "25": {
+        "question": "Assume that $a$ , $b$ , $c$ and $d$ are positive integers such that $a^5 = b^4$ , $c^3 = d^2$ and $c - a = 19$ . Determine $d - b$ .",
+        "ground_truth": "757",
+        "dataset_id": "1985-7"
+    },
+    "26": {
+        "question": "The sum of the following seven numbers is exactly 19: $a_1 = 2.56$ , $a_2 = 2.61$ , $a_3 = 2.65$ , $a_4 = 2.71$ , $a_5 = 2.79$ , $a_6 = 2.82$ , $a_7 = 2.86$ . It is desired to replace each $a_i$ by an integer approximation $A_i$ , $1\\le i \\le 7$ , so that the sum of the $A_i$ 's is also $19$ and so that $M$ , the maximum of the \"errors\" $\\lvert A_i-a_i \\rvert$ , is as small as possible. For this minimum $M$ , what is $100M$ ?",
+        "ground_truth": "61",
+        "dataset_id": "1985-8"
+    },
+    "27": {
+        "question": "In a circle, parallel chords of lengths $2$ , $3$ , and $4$ determine central angles of $\\alpha$ , $\\beta$ , and $\\alpha + \\beta$ radians, respectively, where $\\alpha + \\beta < \\pi$ . If $\\cos \\alpha$ , which is a positive rational number, is expressed as a fraction in lowest terms, what is the sum of its numerator and denominator?",
+        "ground_truth": "49",
+        "dataset_id": "1985-9"
+    },
+    "28": {
+        "question": "How many of the first $1000$ positive integers can be expressed in the form $\\lfloor 2x \\rfloor + \\lfloor 4x \\rfloor + \\lfloor 6x \\rfloor + \\lfloor 8x \\rfloor$ , where $x$ is a real number, and $\\lfloor z \\rfloor$ denotes the greatest integer less than or equal to $z$ ?",
+        "ground_truth": "600",
+        "dataset_id": "1985-10"
+    },
+    "32": {
+        "question": "What is the sum of the solutions to the equation $\\sqrt[4]{x} = \\frac{12}{7 - \\sqrt[4]{x}}$ ?",
+        "ground_truth": "337",
+        "dataset_id": "1986-1"
+    },
+    "33": {
+        "question": "Evaluate the product \\[\\left(\\sqrt{5}+\\sqrt{6}+\\sqrt{7}\\right)\\left(\\sqrt{5}+\\sqrt{6}-\\sqrt{7}\\right)\\left(\\sqrt{5}-\\sqrt{6}+\\sqrt{7}\\right)\\left(-\\sqrt{5}+\\sqrt{6}+\\sqrt{7}\\right).\\]",
+        "ground_truth": "104",
+        "dataset_id": "1986-2"
+    },
+    "36": {
+        "question": "The pages of a book are numbered $1$ through $n$ . When the page numbers of the book were added, one of the page numbers was mistakenly added twice, resulting in an incorrect sum of $1986$ . What was the number of the page that was added twice?",
+        "ground_truth": "33",
+        "dataset_id": "1986-6"
+    },
+    "38": {
+        "question": "Let $S$ be the sum of the base $10$ logarithms of all the proper divisors of $1000000$ . What is the integer nearest to $S$ ?",
+        "ground_truth": "141",
+        "dataset_id": "1986-8"
+    },
+    "40": {
+        "question": "The polynomial $1-x+x^2-x^3+\\cdots+x^{16}-x^{17}$ may be written in the form $a_0+a_1y+a_2y^2+\\cdots +a_{16}y^{16}+a_{17}y^{17}$ , where $y=x+1$ and the $a_i$ 's are constants. Find the value of $a_2$ .",
+        "ground_truth": "816",
+        "dataset_id": "1986-11"
+    },
+    "42": {
+        "question": "In a sequence of coin tosses, one can keep a record of instances in which a tail is immediately followed by a head, a head is immediately followed by a head, and etc. We denote these by TH, HH, and etc. For example, in the sequence TTTHHTHTTTHHTTH of 15 coin tosses we observe that there are two HH, three HT, four TH, and five TT subsequences. How many different sequences of 15 coin tosses will contain exactly two HH, three HT, four TH, and five TT subsequences?",
+        "ground_truth": "560",
+        "dataset_id": "1986-13"
+    },
+    "43": {
+        "question": "The shortest distances between an interior diagonal of a rectangular parallelepiped , $P$ , and the edges it does not meet are $2\\sqrt{5}$ , $\\frac{30}{\\sqrt{13}}$ , and $\\frac{15}{\\sqrt{10}}$ . Determine the volume of $P$ .",
+        "ground_truth": "750",
+        "dataset_id": "1986-14"
+    },
+    "44": {
+        "question": "An ordered pair $(m,n)$ of non-negative integers is called \"simple\" if the addition $m+n$ in base $10$ requires no carrying. Find the number of simple ordered pairs of non-negative integers that sum to $1492$ .",
+        "ground_truth": "300",
+        "dataset_id": "1987-1"
+    },
+    "46": {
+        "question": "By a proper divisor of a natural number we mean a positive integral divisor other than 1 and the number itself. A natural number greater than 1 will be called \"nice\" if it is equal to the product of its distinct proper divisors. What is the sum of the first ten nice numbers?",
+        "ground_truth": "182",
+        "dataset_id": "1987-3"
+    },
+    "48": {
+        "question": "Find $3x^2 y^2$ if $x$ and $y$ are integers such that $y^2 + 3x^2 y^2 = 30x^2 + 517$ .",
+        "ground_truth": "588",
+        "dataset_id": "1987-5"
+    },
+    "49": {
+        "question": "Let $[r,s]$ denote the least common multiple of positive integers $r$ and $s$ .  Find the number of ordered triples $(a,b,c)$ of positive integers for which $[a,b] = 1000$ , $[b,c] = 2000$ , and $[c,a] = 2000$ .",
+        "ground_truth": "70",
+        "dataset_id": "1987-7"
+    },
+    "51": {
+        "question": "Al walks down to the bottom of an escalator that is moving up and he counts 150 steps. His friend, Bob, walks up to the top of the escalator and counts 75 steps. If Al's speed of walking (in steps per unit time) is three times Bob's walking speed, how many steps are visible on the escalator at a given time? (Assume that this value is constant.)",
+        "ground_truth": "120",
+        "dataset_id": "1987-10"
+    },
+    "52": {
+        "question": "Find the largest possible value of $k$ for which $3^{11}$ is expressible as the sum of $k$ consecutive positive integers.",
+        "ground_truth": "486",
+        "dataset_id": "1987-11"
+    },
+    "53": {
+        "question": "Let $m$ be the smallest integer whose cube root is of the form $n+r$ , where $n$ is a positive integer and $r$ is a positive real number less than $1/1000$ . Find $n$ .",
+        "ground_truth": "19",
+        "dataset_id": "1987-12"
+    },
+    "55": {
+        "question": "Find $(\\log_2 x)^2$ if $\\log_2 (\\log_8 x) = \\log_8 (\\log_2 x)$ .",
+        "ground_truth": "27",
+        "dataset_id": "1988-3"
+    },
+    "57": {
+        "question": "The function $f$ , defined on the set of ordered pairs of positive integers, satisfies the following properties: \\[f(x, x) = x,\\; f(x, y) = f(y, x), {\\rm \\ and\\ } (x+y)f(x, y) = yf(x, x+y).\\] Calculate $f(14,52)$ .",
+        "ground_truth": "364",
+        "dataset_id": "1988-8"
+    },
+    "58": {
+        "question": "Find the smallest positive integer whose cube ends in $888$ .",
+        "ground_truth": "192",
+        "dataset_id": "1988-9"
+    },
+    "60": {
+        "question": "Let $C$ be the graph of $xy = 1$ , and denote by $C^*$ the reflection of $C$ in the line $y = 2x$ . Let the equation of $C^*$ be written in the form \\[12x^2 + bxy + cy^2 + d = 0.\\] Find the product $bc$ .",
+        "ground_truth": "84",
+        "dataset_id": "1988-14"
+    },
+    "61": {
+        "question": "In an office at various times during the day, the boss gives the secretary a letter to type, each time putting the letter on top of the pile in the secretary's in-box. When there is time, the secretary takes the top letter off the pile and types it. There are nine letters to be typed during the day, and the boss delivers them in the order 1, 2, 3, 4, 5, 6, 7, 8, 9. While leaving for lunch, the secretary tells a colleague that letter 8 has already been typed, but says nothing else about the morning's typing. The colleague wonders which of the nine letters remain to be typed after lunch and in what order they will be typed. Based upon the above information, how many such after-lunch typing orders are possible? (That there are no letters left to be typed is one of the possibilities.)",
+        "ground_truth": "704",
+        "dataset_id": "1988-15"
+    },
+    "64": {
+        "question": "When a certain biased coin is flipped five times, the probability of getting heads exactly once is not equal to $0$ and is the same as that of getting heads exactly twice. Let $\\frac ij$ , in lowest terms, be the probability that the coin comes up heads in exactly $3$ out of $5$ flips. Find $i+j$ .",
+        "ground_truth": "283",
+        "dataset_id": "1989-5"
+    },
+    "65": {
+        "question": "One of Euler's conjectures was disproved in the 1960s by three American mathematicians when they showed there was a positive integer such that \\[133^5+110^5+84^5+27^5=n^{5}.\\] Find the value of $n$ .",
+        "ground_truth": "144",
+        "dataset_id": "1989-9"
+    },
+    "66": {
+        "question": "A sample of 121 integers is given, each between 1 and 1000 inclusive, with repetitions allowed. The sample has a unique mode (most frequent value). Let $D$ be the difference between the mode and the arithmetic mean of the sample. What is the largest possible value of $\\lfloor D\\rfloor$ ? (For real $x$ , $\\lfloor x\\rfloor$ is the greatest integer less than or equal to $x$ .)",
+        "ground_truth": "947",
+        "dataset_id": "1989-11"
+    },
+    "67": {
+        "question": "Let $S$ be a subset of $\\{1,2,3,\\ldots,1989\\}$ such that no two members of $S$ differ by $4$ or $7$ . What is the largest number of elements $S$ can have?",
+        "ground_truth": "905",
+        "dataset_id": "1989-13"
+    },
+    "68": {
+        "question": "Find the value of $(52+6\\sqrt{43})^{3/2}-(52-6\\sqrt{43})^{3/2}$ .",
+        "ground_truth": "828",
+        "dataset_id": "1990-2"
+    },
+    "71": {
+        "question": "A biologist wants to calculate the number of fish in a lake. On May 1 she catches a random sample of 60 fish, tags them, and releases them. On September 1 she catches a random sample of 70 fish and finds that 3 of them are tagged. To calculate the number of fish in the lake on May 1, she assumes that 25% of these fish are no longer in the lake on September 1 (because of death and emigrations), that 40% of the fish were not in the lake May 1 (because of births and immigrations), and that the number of untagged fish and tagged fish in the September 1 sample are representative of the total population. What does the biologist calculate for the number of fish in the lake on May 1?",
+        "ground_truth": "840",
+        "dataset_id": "1990-6"
+    },
+    "72": {
+        "question": "A fair coin is to be tossed $10$ times. Let $i/j$ , in lowest terms, be the probability that heads never occur on consecutive tosses. Find $i+j$ .",
+        "ground_truth": "73",
+        "dataset_id": "1990-9"
+    },
+    "73": {
+        "question": "The sets $A = \\{z\u00a0: z^{18} = 1\\}$ and $B = \\{w\u00a0: w^{48} = 1\\}$ are both sets of complex roots of unity.  The set $C = \\{zw\u00a0: z \\in A ~ \\mbox{and} ~ w \\in B\\}$ is also a set of complex roots of unity.  How many distinct elements are in $C$ ?",
+        "ground_truth": "144",
+        "dataset_id": "1990-10"
+    },
+    "76": {
+        "question": "How many real numbers $x$ satisfy the equation $\\frac{1}{5}\\log_2 x = \\sin (5\\pi x)$ ?",
+        "ground_truth": "159",
+        "dataset_id": "1991-4"
+    },
+    "77": {
+        "question": "Given a rational number, write it as a fraction in lowest terms and calculate the product of the resulting numerator and denominator. For how many rational numbers between 0 and 1 will $20!$ be the resulting product?",
+        "ground_truth": "128",
+        "dataset_id": "1991-5"
+    },
+    "78": {
+        "question": "For how many real numbers $a$ does the quadratic equation $x^2 + ax + 6a=0$ have only integer roots for $x$ ?",
+        "ground_truth": "10",
+        "dataset_id": "1991-8"
+    },
+    "80": {
+        "question": "Two three-letter strings, $aaa$ and $bbb$ , are transmitted electronically. Each string is sent letter by letter. Due to faulty equipment, each of the six letters has a 1/3 chance of being received incorrectly, as an $a$ when it should have been a $b$ , or as a $b$ when it should be an $a$ . However, whether a given letter is received correctly or incorrectly is independent of the reception of any other letter. Let $S_a$ be the three-letter string received when $aaa$ is transmitted and let $S_b$ be the three-letter string received when $bbb$ is transmitted. Let $p$ be the probability that $S_a$ comes before $S_b$ in alphabetical order. When $p$ is written as a fraction in lowest terms, what is its numerator?",
+        "ground_truth": "532",
+        "dataset_id": "1991-10"
+    },
+    "82": {
+        "question": "Find the sum of all positive rational numbers that are less than 10 and that have denominator 30 when written in lowest terms.",
+        "ground_truth": "400",
+        "dataset_id": "1992-1"
+    },
+    "84": {
+        "question": "A tennis player computes her win ratio by dividing the number of matches she has won by the total number of matches she has played. At the start of a weekend, her win ratio is exactly $0.500$ . During the weekend, she plays four matches, winning three and losing one. At the end of the weekend, her win ratio is greater than $.503$ . What's the largest number of matches she could've won before the weekend began?",
+        "ground_truth": "164",
+        "dataset_id": "1992-3"
+    },
+    "85": {
+        "question": "Let $S$ be the set of all rational numbers $r$ , $0<r<1$ , that have a repeating decimal expansion in the form $0.abcabcabc\\ldots=0.\\overline{abc}$ , where the digits $a$ , $b$ , and $c$ are not necessarily distinct. To write the elements of $S$ as fractions in lowest terms, how many different numerators are required?",
+        "ground_truth": "660",
+        "dataset_id": "1992-5"
+    },
+    "86": {
+        "question": "For how many pairs of consecutive integers in $\\{1000,1001,1002,\\ldots,2000\\}$ is no carrying required when the two integers are added?",
+        "ground_truth": "156",
+        "dataset_id": "1992-6"
+    },
+    "87": {
+        "question": "For any sequence of real numbers $A=(a_1,a_2,a_3,\\ldots)$ , define $\\Delta A$ to be the sequence $(a_2-a_1,a_3-a_2,a_4-a_3,\\ldots)$ , whose $n^{th}$ term is $a_{n+1}-a_n$ . Suppose that all of the terms of the sequence $\\Delta(\\Delta A)$ are $1$ , and that $a_{19}=a_{92}=0$ . Find $a_1$ .",
+        "ground_truth": "819",
+        "dataset_id": "1992-8"
+    },
+    "88": {
+        "question": "Consider the region $A$ in the complex plane that consists of all points $z$ such that both $\\frac{z}{40}$ and $\\frac{40}{\\overline{z}}$ have real and imaginary parts between $0$ and $1$ , inclusive. What is the integer that is nearest the area of $A$ ?",
+        "ground_truth": "572",
+        "dataset_id": "1992-10"
+    },
+    "90": {
+        "question": "Define a positive integer $n$ to be a factorial tail if there is some positive integer $m$ such that the decimal representation of $m!$ ends with exactly $n$ zeroes. How many positive integers less than $1992$ are not factorial tails?",
+        "ground_truth": "396",
+        "dataset_id": "1992-15"
+    },
+    "93": {
+        "question": "How many ordered four-tuples of integers $(a,b,c,d)\\,$ with $0 < a < b < c < d < 500\\,$ satisfy $a + d = b + c\\,$ and $bc - ad = 93\\,$ ?",
+        "ground_truth": "870",
+        "dataset_id": "1993-4"
+    },
+    "94": {
+        "question": "Let $P_0(x) = x^3 + 313x^2 - 77x - 8\\,$ .  For integers $n \\ge 1\\,$ , define $P_n(x) = P_{n - 1}(x - n)\\,$ .  What is the coefficient of $x\\,$ in $P_{20}(x)\\,$ ?",
+        "ground_truth": "763",
+        "dataset_id": "1993-5"
+    },
+    "95": {
+        "question": "What is the smallest positive integer than can be expressed as the sum of nine consecutive integers, the sum of ten consecutive integers, and the sum of eleven consecutive integers? ",
+        "ground_truth": "495",
+        "dataset_id": "1993-6"
+    },
+    "98": {
+        "question": "Two thousand points are given on a circle. Label one of the points 1. From this point, count 2 points in the clockwise direction and label this point 2. From the point labeled 2, count 3 points in the clockwise direction and label this point 3. (See figure.) Continue this process until the labels $1,2,3\\dots,1993\\,$ are all used. Some of the points on the circle will have more than one label and some points will not have a label. What is the smallest integer that labels the same point as 1993? AIME 1993 Problem 9.png",
+        "ground_truth": "118",
+        "dataset_id": "1993-9"
+    },
+    "100": {
+        "question": "Jenny and Kenny are walking in the same direction, Kenny at 3 feet per second and Jenny at 1 foot per second, on parallel paths that are 200 feet apart. A tall circular building 100 feet in diameter is centered midway between the paths. At the instant when the building first blocks the line of sight between Jenny and Kenny, they are 200 feet apart. Let $t\\,$ be the amount of time, in seconds, before Jenny and Kenny can see each other again. If $t\\,$ is written as a fraction in lowest terms, what is the sum of the numerator and denominator?",
+        "ground_truth": "163",
+        "dataset_id": "1993-13"
+    },
+    "104": {
+        "question": "Find the last three digits of the product of the positive roots of $\\sqrt{1995}x^{\\log_{1995}x}=x^2.$",
+        "ground_truth": "25",
+        "dataset_id": "1995-2"
+    },
+    "106": {
+        "question": "For certain real values of $a, b, c,$ and $d,$ the equation $x^4+ax^3+bx^2+cx+d=0$ has four non-real roots.  The product of two of these roots is $13+i$ and the sum of the other two roots is $3+4i,$ where $i=\\sqrt{-1}.$ Find $b.$",
+        "ground_truth": "51",
+        "dataset_id": "1995-5"
+    },
+    "107": {
+        "question": "Let $n=2^{31}3^{19}.$ How many positive integer divisors of $n^2$ are less than $n$ but do not divide $n$ ?",
+        "ground_truth": "589",
+        "dataset_id": "1995-6"
+    },
+    "109": {
+        "question": "What is the largest positive integer that is not the sum of a positive integral multiple of 42 and a positive composite integer?",
+        "ground_truth": "215",
+        "dataset_id": "1995-10"
+    },
+    "112": {
+        "question": "Let $p$ be the probability that, in the process of repeatedly flipping a fair coin, one will encounter a run of 5 heads before one encounters a run of 2 tails.  Given that $p$ can be written in the form $m/n$ where $m$ and $n$ are relatively prime positive integers, find $m+n$ .",
+        "ground_truth": "37",
+        "dataset_id": "1995-15"
+    },
+    "113": {
+        "question": "For each real number $x$ , let $\\lfloor x \\rfloor$ denote the greatest integer that does not exceed $x$ . For how many positive integers $n$ is it true that $n<1000$ and that $\\lfloor \\log_{2} n \\rfloor$ is a positive even integer?",
+        "ground_truth": "340",
+        "dataset_id": "1996-2"
+    },
+    "115": {
+        "question": "Suppose that the roots of $x^3+3x^2+4x-11=0$ are $a$ , $b$ , and $c$ , and that the roots of $x^3+rx^2+sx+t=0$ are $a+b$ , $b+c$ , and $c+a$ . Find $t$ .",
+        "ground_truth": "23",
+        "dataset_id": "1996-5"
+    },
+    "116": {
+        "question": "In a five-team tournament, each team plays one game with every other team. Each team has a $50\\%$ chance of winning any game it plays. (There are no ties.) Let $\\dfrac{m}{n}$ be the probability that the tournament will produce neither an undefeated team nor a winless team, where $m$ and $n$ are relatively prime integers. Find $m+n$ .",
+        "ground_truth": "49",
+        "dataset_id": "1996-6"
+    },
+    "117": {
+        "question": "The harmonic mean of two positive integers is the reciprocal of the arithmetic mean of their reciprocals. For how many ordered pairs of positive integers $(x,y)$ with $x<y$ is the harmonic mean of $x$ and $y$ equal to $6^{20}$ ?",
+        "ground_truth": "799",
+        "dataset_id": "1996-8"
+    },
+    "118": {
+        "question": "A bored student walks down a hall that contains a row of closed lockers, numbered 1 to 1024. He opens the locker numbered 1, and then alternates between skipping and opening each locker thereafter. When he reaches the end of the hall, the student turns around and starts back. He opens the first closed locker he encounters, and then alternates between skipping and opening each closed locker thereafter. The student continues wandering back and forth in this manner until every locker is open. What is the number of the last locker he opens?",
+        "ground_truth": "342",
+        "dataset_id": "1996-9"
+    },
+    "119": {
+        "question": "Find the smallest positive integer solution to $\\tan{19x^{\\circ}}=\\dfrac{\\cos{96^{\\circ}}+\\sin{96^{\\circ}}}{\\cos{96^{\\circ}}-\\sin{96^{\\circ}}}$ .",
+        "ground_truth": "159",
+        "dataset_id": "1996-10"
+    },
+    "120": {
+        "question": "Let $\\mathrm {P}$ be the product of the roots of $z^6+z^4+z^3+z^2+1=0$ that have a positive imaginary part, and suppose that $\\mathrm {P}=r(\\cos{\\theta^{\\circ}}+i\\sin{\\theta^{\\circ}})$ , where $0<r$ and $0\\leq \\theta <360$ . Find $\\theta$ .",
+        "ground_truth": "276",
+        "dataset_id": "1996-11"
+    },
+    "121": {
+        "question": "For each permutation $a_1,a_2,a_3,\\cdots,a_{10}$ of the integers $1,2,3,\\cdots,10$ , form the sum $|a_1-a_2|+|a_3-a_4|+|a_5-a_6|+|a_7-a_8|+|a_9-a_{10}|$ . The average value of all such sums can be written in the form $\\dfrac{p}{q}$ , where $p$ and $q$ are relatively prime positive integers. Find $p+q$ .",
+        "ground_truth": "58",
+        "dataset_id": "1996-12"
+    },
+    "122": {
+        "question": "A $150\\times 324\\times 375$ rectangular solid is made by gluing together $1\\times 1\\times 1$ cubes. An internal diagonal of this solid passes through the interiors of how many of the $1\\times 1\\times 1$ cubes?",
+        "ground_truth": "768",
+        "dataset_id": "1996-14"
+    },
+    "126": {
+        "question": "The number $r$ can be expressed as a four-place decimal $0.abcd,$ where $a, b, c,$ and $d$ represent digits, any of which could be zero.  It is desired to approximate $r$ by a fraction whose numerator is 1 or 2 and whose denominator is an integer. The closest such fraction to $r$ is $\\frac 27.$ What is the number of possible values for $r$ ?",
+        "ground_truth": "417",
+        "dataset_id": "1997-5"
+    },
+    "127": {
+        "question": "A car travels due east at $\\frac 23$ miles per minute on a long, straight road. At the same time, a circular storm, whose radius is $51$ miles, moves southeast at $\\frac 12\\sqrt{2}$ miles per minute. At time $t=0$ , the center of the storm is $110$ miles due north of the car. At time $t=t_1$ minutes, the car enters the storm circle, and at time $t=t_2$ minutes, the car leaves the storm circle. Find $\\frac 12(t_1+t_2)$ .",
+        "ground_truth": "198",
+        "dataset_id": "1997-7"
+    },
+    "129": {
+        "question": "Given a nonnegative real number $x$ , let $\\langle x\\rangle$ denote the fractional part of $x$ ; that is, $\\langle x\\rangle=x-\\lfloor x\\rfloor$ , where $\\lfloor x\\rfloor$ denotes the greatest integer less than or equal to $x$ . Suppose that $a$ is positive, $\\langle a^{-1}\\rangle=\\langle a^2\\rangle$ , and $2<a^2<3$ . Find the value of $a^{12}-144a^{-1}$ .",
+        "ground_truth": "233",
+        "dataset_id": "1997-9"
+    },
+    "131": {
+        "question": "The function $f$ defined by $f(x)= \\frac{ax+b}{cx+d}$ , where $a$ , $b$ , $c$ and $d$ are nonzero real numbers, has the properties $f(19)=19$ , $f(97)=97$ and $f(f(x))=x$ for all values except $\\frac{-d}{c}$ . Find the unique number that is not in the range of $f$ .",
+        "ground_truth": "58",
+        "dataset_id": "1997-12"
+    },
+    "135": {
+        "question": "The graph of $y^2 + 2xy + 40|x|= 400$ partitions the plane into several regions.  What is the area of the bounded region?",
+        "ground_truth": "800",
+        "dataset_id": "1998-3"
+    },
+    "136": {
+        "question": "Nine tiles are numbered $1, 2, 3, \\cdots, 9,$ respectively.  Each of three players randomly selects and keeps three of the tiles, and sums those three values.  The probability that all three players obtain an odd sum is $m/n,$ where $m$ and $n$ are relatively prime positive integers .  Find $m+n.$",
+        "ground_truth": "17",
+        "dataset_id": "1998-4"
+    },
+    "142": {
+        "question": "If $\\{a_1,a_2,a_3,\\ldots,a_n\\}$ is a set of real numbers , indexed so that $a_1 < a_2 < a_3 < \\cdots < a_n,$ its complex power sum is defined to be $a_1i + a_2i^2+ a_3i^3 + \\cdots + a_ni^n,$ where $i^2 = - 1.$ Let $S_n$ be the sum of the complex power sums of all nonempty subsets of $\\{1,2,\\ldots,n\\}.$ Given that $S_8 = - 176 - 64i$ and $S_9 = p + qi,$ where $p$ and $q$ are integers, find $|p| + |q|.$",
+        "ground_truth": "368",
+        "dataset_id": "1998-13"
+    },
+    "143": {
+        "question": "An $m\\times n\\times p$ rectangular box has half the volume of an $(m + 2)\\times(n + 2)\\times(p + 2)$ rectangular box, where $m, n,$ and $p$ are integers, and $m\\le n\\le p.$ What is the largest possible value of $p$ ?",
+        "ground_truth": "130",
+        "dataset_id": "1998-14"
+    },
+    "144": {
+        "question": "Define a domino to be an ordered pair of distinct positive integers. A proper sequence of dominos is a list of distinct dominos in which the first coordinate of each pair after the first equals the second coordinate of the immediately preceding pair, and in which $(i,j)$ and $(j,i)$ do not both appear for any $i$ and $j$ .  Let $D_{40}$ be the set of all dominos whose coordinates are no larger than 40.  Find the length of the longest proper sequence of dominos that can be formed using the dominos of $D_{40}.$",
+        "ground_truth": "761",
+        "dataset_id": "1998-15"
+    },
+    "145": {
+        "question": "Find the smallest prime that is the fifth term of an increasing arithmetic sequence, all four preceding terms also being prime. ",
+        "ground_truth": "29",
+        "dataset_id": "1999-1"
+    },
+    "147": {
+        "question": "For any positive integer $x$ , let $S(x)$ be the sum of the digits of $x$ , and let $T(x)$ be $|S(x+2)-S(x)|.$ For example, $T(199)=|S(201)-S(199)|=|3-19|=16.$ How many values of $T(x)$ do not exceed 1999?",
+        "ground_truth": "223",
+        "dataset_id": "1999-5"
+    },
+    "150": {
+        "question": "A function $f$ is defined on the complex numbers by $f(z)=(a+bi)z,$ where $a$ and $b$ are positive numbers.  This function has the property that the image of each point in the complex plane is equidistant from that point and the origin.  Given that $|a+bi|=8$ and that $b^2=m/n,$ where $m$ and $n$ are relatively prime positive integers.  Find $m+n.$",
+        "ground_truth": "259",
+        "dataset_id": "1999-9"
+    },
+    "151": {
+        "question": "Given that $\\sum_{k=1}^{35}\\sin 5k=\\tan \\frac mn,$ where angles are measured in degrees, and $m$ and $n$ are relatively prime positive integers that satisfy $\\frac mn<90,$ find $m+n.$",
+        "ground_truth": "177",
+        "dataset_id": "1999-11"
+    },
+    "152": {
+        "question": "Forty teams play a tournament in which every team plays every other( $39$ different opponents) team exactly once.  No ties occur, and each team has a $50 \\%$ chance of winning any game it plays.  The probability that no two teams win the same number of games is $m/n,$ where $m$ and $n$ are relatively prime positive integers.  Find $\\log_2 n.$",
+        "ground_truth": "742",
+        "dataset_id": "1999-13"
+    },
+    "154": {
+        "question": "In the expansion of $(ax + b)^{2000},$ where $a$ and $b$ are relatively prime positive integers, the coefficients of $x^{2}$ and $x^{3}$ are equal. Find $a + b$ .",
+        "ground_truth": "667",
+        "dataset_id": "2000-I-3"
+    },
+    "155": {
+        "question": "Each of two boxes contains both black and white marbles, and the total number of marbles in the two boxes is $25.$ One marble is taken out of each box randomly. The probability that both marbles are black is $\\frac{27}{50},$ and the probability that both marbles are white is $\\frac{m}{n},$ where $m$ and $n$ are relatively prime positive integers. What is $m + n$ ?",
+        "ground_truth": "26",
+        "dataset_id": "2000-I-5"
+    },
+    "157": {
+        "question": "Suppose that $x,$ $y,$ and $z$ are three positive numbers that satisfy the equations $xyz = 1,$ $x + \\frac {1}{z} = 5,$ and $y + \\frac {1}{x} = 29.$ Then $z + \\frac {1}{y} = \\frac {m}{n},$ where $m$ and $n$ are relatively prime positive integers. Find $m + n$ .",
+        "ground_truth": "5",
+        "dataset_id": "2000-I-7"
+    },
+    "161": {
+        "question": "Let $S$ be the sum of all numbers of the form $\\frac{a}{b}$ , where $a$ and $b$ are relatively prime positive divisors of $1000.$ What is the greatest integer that does not exceed $\\frac{S}{10}$ ?",
+        "ground_truth": "248",
+        "dataset_id": "2000-I-11"
+    },
+    "162": {
+        "question": "Given a function $f$ for which \\[f(x) = f(398 - x) = f(2158 - x) = f(3214 - x)\\] holds for all real $x,$ what is the largest number of different values that can appear in the list $f(0),f(1),f(2),\\ldots,f(999)$ ?",
+        "ground_truth": "177",
+        "dataset_id": "2000-I-12"
+    },
+    "163": {
+        "question": "A stack of $2000$ cards is labelled with the integers from $1$ to $2000,$ with different integers on different cards. The cards in the stack are not in numerical order. The top card is removed from the stack and placed on the table, and the next card is moved to the bottom of the stack. The new top card is removed from the stack and placed on the table, to the right of the card already there, and the next card in the stack is moved to the bottom of the stack. The process - placing the top card to the right of the cards already on the table and moving the next card in the stack to the bottom of the stack - is repeated until all cards are on the table. It is found that, reading from left to right, the labels on the cards are now in ascending order: $1,2,3,\\ldots,1999,2000.$ In the original stack of cards, how many cards were above the card labeled $1999$ ?",
+        "ground_truth": "927",
+        "dataset_id": "2000-I-15"
+    },
+    "165": {
+        "question": "A deck of forty cards consists of four 1's, four 2's,..., and four 10's.  A matching pair (two cards with the same number) is removed from the deck.  Given that these cards are not returned to the deck, let $m/n$ be the probability that two randomly selected cards also form a pair, where $m$ and $n$ are relatively prime positive integers.  Find $m + n.$",
+        "ground_truth": "758",
+        "dataset_id": "2000-II-3"
+    }
+}

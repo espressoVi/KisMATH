@@ -1,0 +1,91 @@
+{
+    "964": {
+        "question": "Kevin holds the world record for eating the biggest quantity of hot wings in 8 minutes. He can eat 64 wings without stopping. Alan, a boy who loves hot wings, wants to beat Kevin's record.  He is currently able to eat 5 hot wings per minute. How many more wings must he eat per minute to beat Kevin's record?",
+        "original_answer": "Knowing Kevin's record of eating 70 wings in 8 minutes or 64 / 8 = 8 wings in a minute\nAlan must increase his ability to eat 5 wings per minute to 8 - 5 = 3 wings per minute to equal Kevin's world record.\nTo beat Kevin, Alan must eat 3+1 = <<3+1=4>>4 hot wings per minute.\n#### 4",
+        "original_reasoning": [
+            "Knowing Kevin's record of eating 70 wings in 8 minutes or 64 / 8 = 8 wings in a minute",
+            "Alan must increase his ability to eat 5 wings per minute to 8 - 5 = 3 wings per minute to equal Kevin's world record.",
+            "To beat Kevin, Alan must eat 3+1 = 4 hot wings per minute."
+        ],
+        "reasoning": [
+            "Kevin's average speed is $64/8=8$ wings per minute.", "To beat Kevin, Alan must exceed $8$ wings per minute, i.e., reach at least $9$ wings per minute.",
+            "Alan currently eats $5$ wings per minute.",
+            "Extra wings per minute required: $9-5=4$."
+        ],
+        "ground_truth": "4"
+    },
+    "6593": {
+        "question": "There are 4 carriages in a train and each carriage has 25 seats. If each carriage could accommodate 10 more passengers, how many passengers would fill up 3 trains?",
+        "original_answer": "If each carriage had another 10 seats, each carriage would have 25 + 10 = 35 seats.\nThe train comprises of 4 carriages and each carriage now has 35 seats; therefore a train has 35 x 4 = <<4*35=140>>140 seats.\n3 trains with 140 seats each in total can take up 3 x 140 = <<3*140=420>>420 passengers.\n#### 420",
+        "original_reasoning": [
+            "If each carriage had another 10 seats, each carriage would have 25 + 10 = 35 seats.",
+            "The train comprises of 4 carriages and each carriage now has 35 seats; therefore a train has 35 x 4 = 140 seats.",
+            "3 trains with 140 seats each in total can take up 3 x 140 = 420 passengers."
+        ],
+        "reasoning": [
+            "Original capacity per carriage: $25$ seats.",
+            "Increased capacity per carriage: $25 + 10 = 35$ passengers.",
+            "Capacity per train: $4 \\times 35 = 140$ passengers.",
+            "Capacity for $3$ trains: $3 \\times 140 = 420$ passengers."
+        ],
+        "ground_truth": "420"
+    },
+    "6232": {
+        "question": "There are four times as many boys at Lulu's party as girls. Each boy paid twice the money that each girl paid to attend the party. If there are 40 boys at the party and each boy paid $50 to attend the party, calculate the total amount of money collected at the party.",
+        "original_answer": "The total amount of money collected from the boy's payment is 40*$50 = $<<40*50=2000>>2000\nThere are four times as many boys at Lulu's party as girls, meaning there are 40/4 = <<40/4=10>>10 girls at the party.\nsince each boy paid twice the money that each girl paid to attend the party, each girl paid $50/2 = $<<50/2=25>>25\nThe total amount of money collected from the girl's payment is $25*10 = $<<25*10=250>>250\nThe total amount of money collected at the party is $250+$2000 = $<<250+2000=2250>>2250\n#### 2250",
+        "original_reasoning": [
+            "The total amount of money collected from the boy's payment is 40*$50 = $2000",
+            "There are four times as many boys at Lulu's party as girls, meaning there are 40/4 = 10 girls at the party.",
+            "since each boy paid twice the money that each girl paid to attend the party, each girl paid $50/2 = $25",
+            "The total amount of money collected from the girl's payment is $25*10 = $250",
+            "The total amount of money collected at the party is $250+$2000 = $2250"
+        ],
+        "reasoning": [
+            "Let $g$ be the number of girls.",
+            "Since there are four times as many boys as girls and there are $40$ boys, we have $4 \\times g = 40$.",
+            "This means, the number of girls, $g = 10$.",
+            "Each boy paid USD 50, and each girl paid half as much, so each girl paid $50/2 = 25$ USD.",
+            "Money collected from boys: $40 \\times 50 = 2000$ USD.",
+            "Money collected from girls: $10 \\times 25 = 250$ USD.",
+            "Total money collected: USD $2000 + 250 = 2250$ USD."
+        ],
+        "ground_truth": "2250"
+    },
+    "3477": {
+        "question": "Mr. Johnson is organizing the school Christmas play and needs 50 volunteers to help with decorating the auditorium. 5 students from each of the school\u2019s 6 math classes have volunteered to help. 13 teachers have also volunteered to help. How many more volunteers will Mr. Johnson need?",
+        "original_answer": "Since 5 students from each of the 6 math classes have volunteered, there are 5*6= <<5*6=30>>30 total student volunteers.\nIn addition to the 30 student volunteers, 13 teachers have also volunteered so there are 30+13= <<30+13=43>>43 total volunteers.\nMr. Johnson needs 50 volunteers and currently has 43 volunteers, so he needs 50-43= <<50-43=7>>7 more volunteers.\n#### 7",
+        "original_reasoning": [
+            "Since 5 students from each of the 6 math classes have volunteered, there are 5*6= 30 total student volunteers.",
+            "In addition to the 30 student volunteers, 13 teachers have also volunteered so there are 30+13= 43 total volunteers.",
+            "Mr. Johnson needs 50 volunteers and currently has 43 volunteers, so he needs 50-43= 7 more volunteers."
+        ],
+        "reasoning": [
+            "Student volunteers: $5 \\times 6 = 30$.",
+            "Teacher volunteers: $13$.",
+            "Total current volunteers: $30 + 13 = 43$.",
+            "Additional volunteers needed: $50 - 43 = 7$."
+        ],
+        "ground_truth": "7"
+    },
+    "2486": {
+        "question": "There are 248 pages in a book. Joanna can read 16 pages per hour. On Monday, she reads for 3 hours. On Tuesday, she reads for 6.5 hours. How many more hours does she need to read to finish the book?",
+        "original_answer": "On Monday, Joanna reads 3*16=<<3*16=48>>48 pages.\nOn Tuesday, Joanna reads 6.5 * 16 =<<6.5*16=104>>104 pages.\nSo far, she has read 48 +104 =<<48+104=152>>152 pages.\nThus, she has 248-152 = <<248-152=96>>96 pages left.\nShe will need to read for 96/16 = <<96/16=6>>6 hours to finish the book.\n#### 6",
+        "original_reasoning": [
+            "On Monday, Joanna reads 3*16=48 pages.",
+            "On Tuesday, Joanna reads 6.5 * 16 =104 pages.",
+            "So far, she has read 48 +104 =152 pages.",
+            "Thus, she has 248-152 = 96 pages left.",
+            "She will need to read for 96/16 = 6 hours to finish the book."
+        ],
+        "reasoning": [
+            "Total pages in the book: $248$.",
+            "Reading rate: $16$ pages per hour.",
+            "Pages read on Monday: $16 \\times 3 = 48$.",
+            "Pages read on Tuesday: $16 \\times 6.5 = 104$.",
+            "Total pages read so far: $48 + 104 = 152$.",
+            "Pages remaining: $248 - 152 = 96$.",
+            "Hours needed to finish: $96/16 = 6$."
+        ],
+        "ground_truth": "6"
+    }
+}

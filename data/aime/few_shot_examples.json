@@ -1,0 +1,100 @@
+{
+    "448": {
+        "question": "Anh read a book. On the first day she read $n$ pages in $t$ minutes, where $n$ and $t$ are positive integers. On the second day Anh read $n + 1$ pages in $t + 1$ minutes. Each day thereafter Anh read one more page than she read on the previous day, and it took her one more minute than on the previous day until she completely read the $374$ page book. It took her a total of $319$ minutes to read the book. Find $n + t$ .",
+        "ground_truth": "53",
+        "reasoning": [
+            "Let $d$ be the number of days.",
+            "Pages read form an arithmetic sequence: $n, (n+1), \\dots, (n+d-1)$.",
+            "Minutes form an arithmetic sequence: $t, (t+1), \\dots, (t+d-1)$.",
+            "Minutes form an arithmetic sequence: $t, (t+1), \\dots, (t+d-1)$.",
+            "Sum of minutes: $dt+\\dfrac{d(d-1)}{2}=319$.",
+            "Subtract sums: $d(n-t) = 374-319 = 55$.",
+            "Hence $d$ divides $55$, so $d \\in {1, 5, 11, 55}$.",
+            "$d \\ge 2$ (a second day is described), so test $d = 5, 11, 55$.",
+            "Let $S=\\dfrac{d(d-1)}{2}$. For $d = 5$, $S = 10$ gives $n = \\dfrac{374-10}{5} = 72.8$ (not integer).",
+            "For $d=11$, $S=55$ gives $n=\\dfrac{374-55}{11}=29$, $t=\\dfrac{319-55}{11}=24$, both integers.",
+            "For $d=55$, $S = 1485 > 374 \\rightarrow$ n<0$ (invalid).",
+            "Thus $d=11, n = 29, t=24$ satisfy all conditions.",
+            "Compute $n+t=29+24=53$."
+        ],
+        "dataset_id": "2016-I-5"
+    },
+    "13": {
+        "question": "Determine the value of $ab$ if $\\log_8a+\\log_4b^2=5$ and $\\log_8b+\\log_4a^2=7$ .",
+        "ground_truth": "512",
+        "reasoning": [
+            "Write every logarithm in base $2$: $\\log_8 x=\\dfrac{\\log_2 x}{3}$ and $\\log_4 x=\\dfrac{\\log_2 x}{2}$.",
+            "Set $A=\\log_2 a$ and $B=\\log_2 b$.",
+            "Convert the first equation: $\\dfrac{A}{3}+B=5$.",
+            "Convert the second equation: $\\dfrac{B}{3}+A=7$.",
+            "Multiply the first by $3$: $A+3B=15$.",
+            "Multiply the second by $3$: $3A+B=21$.",
+            "Solve the system: subtract to get $8B=24$, so $B=3$.",
+            "Substitute $B=3$ into $A+3B=15$ to find $A=6$.",
+            "Recover $a$ and $b$: $a=2^{A}=2^{6}=64$ and $b=2^{B}=2^{3}=8$.",
+            "Compute the product: $ab=64\\times 8=512$."
+        ],
+        "dataset_id": "1984-5"
+    },
+    "431": {
+        "question": "For positive integer $n$ , let $s(n)$ denote the sum of the digits of $n$ .  Find the smallest positive integer satisfying $s(n) = s(n+864) = 20$ .",
+        "ground_truth": "695",
+        "reasoning": [
+            "Let $n = 100 \\times d_2 + 10 \\times d_1 + d_0$ be the $3$ digit number.",
+            "$\\Rightarrow n + 864 = 100 \\times (d_2 + 8) + 10 \\times (d_1 + 6) + (d_0 + 4)$.",
+            "When a constant $c$ is added to $n$, we have $s(n+c)=s(n)+s(c)-9C$, where $C$ is the number of carries produced in the addition (each carry lowers the digit-sum by $9$).",
+            "Here $c=864$ and $s(864)=8+6+4=18$.",
+            "We need $20=s(n+864)=20+18-9C \\Longrightarrow 18-9C=0 \\Longrightarrow C=2$, i.e., exactly $2$ carries in $864+n$.",
+            "$n$ can't be $2$ digit, as $s(n) \\leq 18$",
+            "Additionally, $d_2 + d_1 + d_0 = 20$, and we want to minimize $n$.",
+            "$d_1 + d_0 \\leq 18 \\Rightarrow d_2 \\geq 2$, so we have the first carry.",
+            "To make the number as small as possible we should minimize $d_2, d_1, d_0$, in that order.",
+            "But, $d_2 = 2 \\rightarrow C = 3$, $d_2 = 3 \\rightarrow C = 3$, $d_2 = 4 \\rightarrow C = 3$, $d_2 = 5 \\rightarrow C = 3$",
+            "Thus, minimum $d_2 \\geq 6$",
+            "$d_2 = 6 \\Rightarrow d_1 + d_0 = 14$",
+            "$d_1 \\geq 5$ for minimum valid number, which gives another carry.",
+            "So, $d_0 \\leq 5$, but we should maximize the last digit to minimize the number.",
+            "Therefore, $d_0 = 5, d_2 = 6 \\Rightarrow d_1 = 9$.",
+            "We have $n = 695$, let's verify $695 + 864 = 1559$.",
+            "$s(1559) = s(695) = 20$, so this is the answer."
+        ],
+        "dataset_id": "2015-I-8"
+    },
+    "305": {
+        "question": "There are two distinguishable flagpoles, and there are $19$ flags, of which $10$ are identical blue flags, and $9$ are identical green flags. Let $N$ be the number of distinguishable arrangements using all of the flags in which each flagpole has at least one flag and no two green flags on either pole are adjacent. Find the remainder when $N$ is divided by $1000$ .",
+        "ground_truth": "310",
+        "reasoning": [
+            "Let $x$ count green flags and $y$ count blue flags.",
+            "For one pole with $g$ greens and $b$ blues, the number of admissible strings (no two greens adjacent) is $\\binom{b+1}{g}$ because we pick the $g$ gaps (among the $b+1$ possible) in which to place a single green.",
+            "The bivariate generating function for one pole is $F(x,y) = \\sum_{b \\ge 0} \\sum_{g=0}^{b+1} \\binom{b+1}{g}x^{g}y^{b} = \\sum_{b \\ge 0}(1+x)^{b+1}y^{b} = \\dfrac{1+x}{1-(1+x)y}$.",
+            "The empty string contributes the term $1$ of $F$, so the series for a non-empty pole is $F-1$.",
+            "For two distinguishable poles, both non-empty, the required generating function is $(F-1)^2$.",
+            "$F-1 = \\dfrac{x+y+xy}{1-y-xy} \\Rightarrow (F-1)^2 = \\dfrac{(x+y+xy)^2}{(1-y-xy)^2}$.",
+            "Use $\\dfrac1{(1-t)^2} = \\sum_{n \\ge 0}(n+1)t^{n}$ with $t=y(1+x)$ $\\dfrac1{(1-y-xy)^2}= \\sum_{n \\ge 0}(n+1)y^{n}(1+x)^{n}$.",
+            "Expand $(x+y+xy)^2 = x^{2}+y^{2}+x^{2}y^{2}+2xy+2x^{2}y+2xy^{2}$.",
+            "To obtain the coefficient of $x^{9}y^{10}$ in $(F-1)^2$, combine a monomial $x^{a}y^{b}$ from the square above with $x^{j}y^{n}$ coming from $(1+x)^{n}y^{n}$, subject to $a+j=9, b+n=10, 0 \\le j \\le n$.",
+            "$a = 2, b = 0, n = 10, j = 7$ contribution $=11\\binom{10}{7} = 1320$",
+            "$a = 2, b = 2, n = 8, j = 7$ contribution $=9\\binom{8}{7} = 72$",
+            "$a = 1, b = 1, n = 9, j = 8$ contribution $=2 \\times 10 \\binom{9}{8} = 180$",
+            "$a = 2, b = 1, n = 9, j = 7$ contribution $=2 \\times 10 \\binom{9}{7} = 720$",
+            "$a = 1, b = 2, n = 8, j = 8$ contribution $=2 \\times 9 \\binom{8}{8} = 18$",
+            "Summing gives $N = 1320+72+180+720+18 = 2310$.",
+            "The remainder upon division by $1000$ is $2310 - 2 \\cdot 1000 = 310$."
+        ],
+        "dataset_id": "2008-II-12"
+    },
+    "91": {
+        "question": "How many even integers between 4000 and 7000 have four different digits?",
+        "ground_truth": "728",
+        "reasoning": [
+            "First digit $4$: $4$ choices for last digit ($0, 2, 6, 8$), $8, 7$ choices for other digits (anything other than $4$ and the chosen number).",
+            "Total $= 4 \\times \\8 \\times 7 = 224$.",
+            "First digit $5$: $5$ choices for last digit ($0, 2, 4, 6, 8$), $8, 7$ choices for other digits.",
+            "Total $= 5 \\times \\8 \\times 7 = 280$.",
+            "First digit $6$: $4$ choices for last digit ($0, 2, 4, 8$), $8, 7$ choices for other digits.",
+            "Total $= 4 \\times \\8 \\times 7 = 224$.",
+            "Adding them all together $224 + 280 + 224 = 728$."
+        ],
+        "dataset_id": "1993-1"
+    }
+}

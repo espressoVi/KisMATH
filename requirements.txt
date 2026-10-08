@@ -1,0 +1,10 @@
+toml
+numpy
+torch
+datasets
+transformers
+accelerate
+openai
+tqdm
+jinja2
+spacy

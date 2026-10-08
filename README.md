@@ -1,8 +1,5 @@
 ![KisMATH](assets/logo.png)
 
-> [!WARNING]
-> In preparation, _release date_: **9th October, 2026**.
-
 This repository contains code and data required to reproduce the main results
 for the paper titled—"_KisMATH: Do LLMs Have Knowledge of Implicit Structures in
 Mathematical Reasoning?_", accepted to the Transactions of the Association for
@@ -49,11 +46,20 @@ investigation into the role of CoT in LLM reasoning."
 
 ## Usage
 
-> [!NOTE]
-> Tested with ```python 3.13.0```.
+> [!WARNING]
+> The datasets, i.e., extracted **CCGraphs** and **R Paths** can be found
+[here](https://huggingface.co/datasets/espressovi/KisMATH).
 
-### Preparation
+* The main entry point is ```causality.py```
+```
+python causaility.py -h
+```
 
+* The rank distribution results can be generated using code in
+```generate_probability.py```.
+```
+python generate_probability.py -h
+```
 
 ## Authors / Contributors
 

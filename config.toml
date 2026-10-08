@@ -1,0 +1,171 @@
+name = "KisMATH"
+
+[LLM]
+[LLM.o3]
+name = "o3-2025-04-16"
+
+
+[SLM]
+max_new = 4096
+temperature = 0.999
+
+[SLM.qwen3_1B]
+hf_name = "Qwen/Qwen3-1.7B"
+path = "./models/qwen3_1.7B/"
+offset = 2
+is_bos = 0
+cache = true
+
+[SLM.qwen3_8B]
+hf_name = "Qwen/Qwen3-8B"
+path = "./models/qwen3_8B/"
+offset = 2
+is_bos = 0
+cache = true
+
+[SLM.qwen3_32B]
+hf_name = "Qwen/Qwen3-32B"
+path = "./models/qwen3_32B/"
+offset = 2
+is_bos = 0
+cache = false
+
+[SLM.qwen25_7B]
+hf_name = "Qwen/Qwen2.5-7B-Instruct"
+path = "./models/qwen2.5_7B/"
+offset = 2
+is_bos = 0
+cache = true
+
+[SLM.qwen25_math_7B]
+hf_name = "Qwen/Qwen2.5-Math-7B"
+path = "./models/qwen2.5_Math_7B/"
+offset = 2
+is_bos = 0
+cache = true
+
+[SLM.deepseek_r1_1B]
+hf_name = "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B"
+path = "./models/deepseek_r1_1.5B/"
+offset = 1
+is_bos = 1
+cache = true
+
+[SLM.deepseek_r1_8B]
+hf_name = "deepseek-ai/DeepSeek-R1-Distill-Llama-8B"
+path = "./models/deepseek_r1_8B/"
+offset = 1
+is_bos = 1
+cache = true
+
+[SLM.deepseek_r1_32B]
+hf_name = "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B"
+path = "./models/deepseek_r1_32B/"
+offset = 1
+is_bos = 1
+cache = false
+
+[SLM.deepseek_r1_70B]
+hf_name = "deepseek-ai/DeepSeek-R1-Distill-Llama-70B"
+path = "./models/deepseek_r1_70B/"
+offset = 1
+is_bos = 1
+cache = false
+
+[SLM.deepseek_r1_0528_8B]
+hf_name = "deepseek-ai/DeepSeek-R1-0528-Qwen3-8B"
+path = "./models/deepseek_r1_0528_8B/"
+offset = 1
+is_bos = 0
+cache = true
+
+[SLM.gemma3_1B]
+hf_name = "google/gemma-3-1b-it" 
+path = "./models/gemma3_1B/"
+offset = 2
+is_bos = 1
+cache = false
+
+[SLM.gemma3_12B]
+hf_name = "google/gemma-3-12b-it" 
+path = "./models/gemma3_12B/"
+offset = 2
+is_bos = 1
+cache = false
+
+[SLM.gemma3_27B]
+hf_name = "google/gemma-3-27b-it" 
+path = "./models/gemma3_27B/"
+offset = 2
+is_bos = 1
+cache = false
+
+[SLM.llama33_70B]
+hf_name = "meta-llama/Llama-3.3-70B-Instruct"
+path = "./models/llama3.3_70B/"
+offset = 1
+is_bos = 1
+cache = false
+
+[SLM.llama31_8B]
+hf_name = "meta-llama/Llama-3.1-8B-Instruct"
+path = "./models/llama3.1_8B/"
+offset = 1
+is_bos = 1
+cache = true
+
+
+[datasets]
+all = ["gsm8k", "math500", "aime"]
+few_shot_num = 5
+evaluation_prompt = "./templates/evaluation_template.txt"
+cot_output = "./outputs/baselines/"
+path_output = "./outputs/perturb"
+score_output = "./outputs/scores"
+
+[datasets.gsm8k]
+name = ["openai/gsm8k", "main"]
+test_num = 1000
+max_paths = 5
+[datasets.gsm8k.files]
+few_shots = "./data/gsm8k/few_shot_examples.json"
+test = "./data/gsm8k/test.json"
+prompt_template = "./templates/gsm8k/system.txt"
+llm_output = "./outputs/llm_output/gsm8k_o3_reasoning_output.json"
+fewshot_template = "./templates/gsm8k/gsm8k_few_shot.txt"
+graph_output = "./outputs/graph/gsm8k_graph.json"
+paths = "./outputs/path/gsm8k.json"
+
+[datasets.aime]
+name = ["gneubig/aime-1983-2024"]
+test_num = 350
+max_paths = 10 
+[datasets.aime.files]
+few_shots = "./data/aime/few_shot_examples.json"
+test = "./data/aime/test.json"
+prompt_template = "./templates/aime/system.txt"
+llm_output = "./outputs/llm_output/aime_o3_reasoning_output.json"
+graph_output = "./outputs/graph/aime_graph.json"
+paths = "./outputs/path/aime.json"
+
+[datasets.math500]
+name = ["HuggingFaceH4/MATH-500"]
+test_num = 397
+max_paths = 10
+[datasets.math500.files]
+few_shots = "./data/math500/few_shot_examples.json"
+test = "./data/math500/test.json"
+prompt_template = "./templates/math500/system.txt"
+llm_output = "./outputs/llm_output/math500_o3_reasoning_output.json"
+graph_output = "./outputs/graph/math500_graph.json"
+paths = "./outputs/path/math500.json"
+
+[display]
+size = [8, 6]
+dpi = 600
+font_size = 12
+font_family = "Computer Modern Roman"
+delY = -0.044
+line_spacing = 2
+max_len = 4600
+min_word_spacing = 80
