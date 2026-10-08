@@ -4,7 +4,10 @@ This repository contains code and data required to reproduce the main results
 for the paper titled—"_KisMATH: Do LLMs Have Knowledge of Implicit Structures in
 Mathematical Reasoning?_", accepted to the Transactions of the Association for
 Computational Linguistics (**TACL**), 14:1308–1328.
-[:notebook: Paper](https://aclanthology.org/2026.tacl-1.59/) | [:email: Contact](mailto:soumadeep.saha97@gmail.com)
+
+[:notebook: Paper](https://aclanthology.org/2026.tacl-1.59/) |
+[:hugging_face: Data](https://huggingface.co/datasets/espressovi/KisMATH) |
+[:email: Contact](mailto:soumadeep.saha97@gmail.com)
 
 ## Citation
 
